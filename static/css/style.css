@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    padding: 2rem;
+    position: fixed;
+    background-color: #f0f1f2;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    gap: 5rem;
+    text-decoration: none
+}
+li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+li:hover{
+    color: #90cfe0;
+    transition: .2s;
+}
+.logo{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.home-container, .about-container{
+    background-color: #101d2e;
+    height: 100vh;
+    padding: 15rem;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+h1{
+    color: #eef0f3;
+    font-size: 50px;
+}
+p{
+    font-size: 25px;
+    color: #90cfe0;
+}
+small{
+    color: #90cfe0;
+}
+.btn-container{
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: .5rem;
+    font-size: 18px;
+}
+
+.cv-btn{
+    background-color: #90cfe0;
+}
+
+.cv-btn:hover{
+    background-color: #eef0f3;
+    transition: .5s;
+}
+
+.github-btn:hover{
+    background-color: #90cfe0;
+    transition: .5s;
+}
