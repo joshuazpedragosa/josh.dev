@@ -95,7 +95,11 @@ small{
     gap: 1rem;
 }
 
-button{
+a{
+    background-color: #eef0f3;
+}
+
+a,button{
     border: none;
     cursor: pointer;
     border-radius: 10px;
@@ -130,6 +134,12 @@ button{
     font-size: 18px;
 }
 
+.social-container{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
 .cv-btn{
     background-color: #90cfe0;
     display: flex;
@@ -153,6 +163,11 @@ button{
     transition: .5s;
 }
 
+.social:hover{
+    box-shadow: 0 0 40px 10px #90cfe0;
+    transition: .2s;
+}
+
 .row{
     display: flex;
     gap: 1rem;
@@ -162,4 +177,82 @@ button{
 .services-child-container,
 .contact-child-container{
     margin: 10rem 0rem 0rem 5rem;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    gap: 5rem;
+    min-width: 90%;
+}
+
+.card{
+    max-width: 400px;
+    max-height: 400px;
+    padding: 2rem;
+    background-color: #eef0f3;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #90cfe0;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 0 0 40px 10px #90cfe0;
+    transition: .2s;
+}
+
+.card-header{
+    font-weight: 600;
+    text-align: center;
+}
+
+input{
+    min-width: 320px;
+    outline: none;
+}
+textarea{
+    min-width: 320px;
+    max-width: 550px;
+    outline: none;
+}
+
+input:focus, textarea:focus{
+    border: 1px solid #90cfe0;
+}
+
+.card-contact{
+    min-width: 320px;
+    max-width: 550px;
+    background-color: #eef0f3;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 10px #90cfe0;
+}
+.button-container{
+    text-align: center;
+}
+
+.send-btn{
+    background-color: #90cfe0;
+    min-width: 120px;
+}
+
+.send-btn:hover{
+    background-color: #eef0f3;
+    border: 2px solid #90cfe0;
+    transition: .2s
+}
+
+.card-body{
+    display: grid;
+    padding: .2rem;
+    gap: 1rem;
+}
+
+.tech{
+    display: flex;
+    gap: .2rem
 }
