@@ -16,7 +16,8 @@
 
 .home,
 .about,
-.services{
+.services,
+.projects{
     min-height: 100vh;
 }
 
@@ -134,4 +135,22 @@ h2{
 .des-text{
     font-size: 1.2rem;
     text-align: center;
+}
+
+.psa-img{
+    background-image: url("../img/psa/Screenshot\ 2023-07-06\ 081116.png");
+    background-size: cover;
+    min-height: 11rem;
+    min-width: 6rem;
+}
+
+.ol-shop-img{
+    background-image: url("../img/furniture/Screenshot\ 2024-02-18\ 004300.png");
+    background-size: cover;
+    min-height: 11rem;
+    min-width: 6rem;
+}
+
+.see-more{
+    background-color: var(--high-light);
 }
