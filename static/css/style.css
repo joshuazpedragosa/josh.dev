@@ -60,11 +60,6 @@ p,small{
     color: var(--high-light);
 }
 
-mark{
-    background: none;
-    color: var(--high-light);
-}
-
 .home-container{
     display: grid;
     justify-content: center;
