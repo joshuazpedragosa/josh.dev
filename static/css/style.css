@@ -15,7 +15,8 @@
 }
 
 .home,
-.about{
+.about,
+.services{
     min-height: 100vh;
 }
 
@@ -110,4 +111,27 @@ h2{
 .about-me-text{
     color: var(--text-color);
     font-size: 1.5rem;
+}
+
+.card{
+    border: 2px solid var(--high-light);
+}
+
+.card:hover{
+    box-shadow: 0 0 90px 5px var(--high-light);
+    transition: .3s;
+}
+
+.card-header{
+    font-size: 1.7rem;
+}
+
+.card-body, .icon-container, .description, .des-text{
+    background-color: var(--text-color);
+    color: #101d2e;
+}
+
+.des-text{
+    font-size: 1.2rem;
+    text-align: center;
 }
