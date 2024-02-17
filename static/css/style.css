@@ -14,11 +14,6 @@
     background-color: var(--background);
 }
 
-.nav-header{
-    border-bottom: 1px solid var(--high-light);
-    box-shadow: 0 0 8px 1px var(--high-light);
-}
-
 .web-name{
     border: 2px solid var(--high-light);
     padding: 1rem;
@@ -82,4 +77,14 @@ p,small{
 .cv-btn:hover{
     background-color: var(--text-color);
     box-shadow: 0 0 30px 5px var(--high-light);
+}
+
+.image-container{
+    background-image: url("https://avatars.githubusercontent.com/u/130421493?v=4");
+    background-size: cover;
+    min-width: 25rem;
+    min-height: 25rem;
+    border-radius: 20px;
+    border: 1px solid var(--high-light);
+    box-shadow: 0 0 90px 5px var(--high-light);
 }
