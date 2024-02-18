@@ -151,6 +151,20 @@ h2{
     min-width: 6rem;
 }
 
+.tracker-img{
+    background-image: url("../img/tracker/Screenshot\ 2024-02-18\ 125630.png");
+    background-size: cover;
+    min-height: 11rem;
+    min-width: 6rem;
+}
+
+.offline-chat-img{
+    background-image: url("../img/offline_chat/Screenshot_2023-10-10-14-43-43-71_9ee8cbb818ab019958cfbb286adc1c66.jpg");
+    background-size: cover;
+    min-height: 20rem;
+    min-width: 6rem;
+}
+
 .see-more{
     background-color: var(--high-light);
 }
