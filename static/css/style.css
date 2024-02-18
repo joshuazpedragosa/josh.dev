@@ -19,6 +19,7 @@
 .services,
 .projects{
     min-height: 100vh;
+    margin-left: .1rem;
 }
 
 .home-text{
