@@ -3,285 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="static/css/style.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
-    <title>Uwah.Dev|Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>JoshDev|Portfolio</title>
 </head>
-<body>
-        <nav class="navbar navbar-expand-lg p-4 nav-header">
-            <div class="container-fluid gap-5 ">
-                <a class="navbar-brand web-name" href="#">Josh.Dev</a>
-                <button class="navbar-toggler icon-color" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" style="fill: #f0f1f2;"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4">
-                    <li class="nav-item">
-                    <a class="nav-link text-header" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link text-header" aria-current="page" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link text-header" aria-current="page" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link text-header" aria-current="page" href="#">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link text-header" aria-current="page" href="#">Contact</a>
-                    </li>
-                </ul>
-                </div>
-            </div>
-        </nav>
-        <div class="row d-grid gap-4">
-            <div class="row home">
-                <div class="col">
-                    <div class="home-container">
-                        <div class="home-text">
-                            <h1>Hi, I'm Joshua</h1>
-                            <p>I'm a Full Stack Web and Mobile App Developer</p>
-                            <small>Node JS, Express JS, Django, React Native, MySql, MongoDB</small>
-                            <div class="mt-2">
-                                <button type="button" class="btn cv-btn">
-                                    See My  CV
-                                </button>
-                                <button type="button" onclick="location.href='https://github.com/joshuazpedragosa'" class="btn github-btn">
-                                    GitHub
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                </div>
-               
-            </div>
-    
-            <div class="row about gap-4">
-               <div class="col">
-                    <div class="col d-grid justify-content-center">
-                        <div class="image-container text-white"></div>
-                    </div>
-               </div>
-               <div class="col">
-                    <div class="container">
-                        <h2>About Me</h2>
-                        <p class="about-me-text">I am an experienced Full Stack Developer with a passion for 
-                           designing and building innovative web and mobile applications. 
-                           With an extensive background in backend technologies such as 
-                           Node.js, Express.js, Django, and MySQL. My knowledge 
-                           of NoSQL databases, particularly MongoDB, enables me 
-                           to create scalable and high-performing applications.</p>
-                           <div>
-                            <button type="button" class="btn see-more">View Services</button>
-                           </div>
-                    </div>
-               </div>
-            </div>
-
-            <div class="row services p-4">
-                <div class="col">
-                    <div class="header mb-4">
-                        <h2>Services</h2>
-                    </div>
-
-                    <div class="row gap-4">
-                        <div class="col">
-                            <div class="card">
-                                <div class="card-header">
-                                    Web Development
-                                </div>
-                                <div class="card-body">
-                                    <div class="icon-container text-center">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" style="fill: #101d2e; background: #f0f1f2;" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
-                                    </div>
-                                    <div class="description">
-                                        <p class="des-text">
-                                            Develop a responsive and efficient Web based Systems.
-                                        </p>
-
-                                        <p class="des-text">
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" style="background: #f0f1f2;" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#35e962" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
-                                            Node Js
-                                        </p>
-                                        <p class="des-text">
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" style="background: #f0f1f2;" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#35e962" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
-                                            Express Js
-                                        </p>
-                                        <p class="des-text">
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" style="background: #f0f1f2;" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#35e962" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
-                                            Django
-                                        </p>
-                                        <p class="des-text">
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" style="background: #f0f1f2;" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#35e962" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
-                                            Laravel
-                                        </p>
-                                        <p class="des-text">
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" style="background: #f0f1f2;" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#35e962" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
-                                            MySQL
-                                        </p>
-                                        <p class="des-text">
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" style="background: #f0f1f2;" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#35e962" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
-                                            MongoDB
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-        
-                        <div class="col">
-                            <div class="card">
-                                <div class="card-header">
-                                    Mobile App Development
-                                </div>
-                                <div class="icon-container text-center p-4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" style="fill: #101d2e; background: #f0f1f2;" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M16 64C16 28.7 44.7 0 80 0H304c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H80c-35.3 0-64-28.7-64-64V64zM144 448c0 8.8 7.2 16 16 16h64c8.8 0 16-7.2 16-16s-7.2-16-16-16H160c-8.8 0-16 7.2-16 16zM304 64H80V384H304V64z"/></svg>
-                                </div>
-                                <div class="description">
-                                    <p class="des-text">
-                                        Develop a responsive and efficient Mobile Application on both IOS and Android.
-                                    </p>
-
-                                    <p class="des-text">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" style="background: #f0f1f2;" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#35e962" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
-                                       React Native
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-        
-                        <div class="col">
-                            <div class="card">
-                                <div class="card-header">
-                                    VPS Configuration
-                                </div>
-                                <div class="icon-container text-center p-4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" style="fill: #101d2e; background: #f0f1f2;" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm48 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM64 288c-35.3 0-64 28.7-64 64v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V352c0-35.3-28.7-64-64-64H64zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm56 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/></svg>
-                                </div>
-                                <div class="description">
-                                    <p class="des-text">
-                                        Setup a linux virtual private server (VPS) for web and server side hosting.
-                                    </p>
-
-                                    <p class="des-text">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" style="background: #f0f1f2;" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#35e962" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
-                                       Cpanel
-                                    </p>
-                                    <p class="des-text">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" style="background: #f0f1f2;" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#35e962" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
-                                       SSH
-                                    </p>
-                                    <p class="des-text">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" style="background: #f0f1f2;" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#35e962" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
-                                       Ubuntu OS
-                                    </p>
-                                    <p class="des-text">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" style="background: #f0f1f2;" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#35e962" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
-                                       AlmaLinux OS
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row p-4 projects">
-                <div class="col">
-                    <div class="header mb-4">
-                        <h2>Projects</h2>
-                    </div>
-                    <div class="row gap-4">
-
-                        <div class="col">
-                            <div class="card">
-                                <div class="card-header">
-                                    PSA eDocTrack
-                                </div>
-                                <div class="icon-container psa-img"></div>
-                                <div class="description">
-                                    <p class="des-text">
-                                        PSA Document Tracking and Record Management System 
-                                        (Capstone Project) 2022 - 2023
-                                    </p>
-                                    <p class="des-text">
-                                       Stack: PHP, JQuery, Ajax, Mysql, BootStrap
-                                    </p>
-                                    <p class="des-text">
-                                        <button type="button" class="btn see-more">See More</button>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <div class="card-header">
-                                    Furniture Online Shop
-                                </div>
-                                <div class="icon-container ol-shop-img"></div>
-                                <div class="description">
-                                    <p class="des-text">
-                                        Furniture Online Shop - 2023
-                                    </p>
-                                    <p class="des-text">
-                                       Stack: Django, Ajax, HTML, CSS, JS, Mysql
-                                    </p>
-                                    <p class="des-text">
-                                        <button type="button" class="btn see-more">See More</button>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <div class="card-header">
-                                    Project Tracker
-                                </div>
-                                <div class="icon-container tracker-img"></div>
-                                <div class="description">
-                                    <p class="des-text">
-                                        BFAR Project Tracker (April - July 2023)
-                                    </p>
-                                    <p class="des-text">
-                                       Stack: Django, Ajax, Tailwind, JS, Mysql
-                                    </p>
-                                    <p class="des-text">
-                                        <button type="button" class="btn see-more">See More</button>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <div class="card-header">
-                                    Offline Chat App
-                                </div>
-                                <div class="icon-container offline-chat-img"></div>
-                                <div class="description">
-                                    <p class="des-text">
-                                       Offline Chat Application using Bluetooth and
-                                       locate nearby users using googlemap api  - 2022
-                                    </p>
-                                    <p class="des-text">
-                                       Stack: Flutter, Firebase, Google Maps Api, Flutter libraries
-                                    </p>
-                                    <p class="des-text">
-                                        <button type="button" class="btn see-more">See More</button>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+<body class="p-0 m-0 bg-gray-800">
+    <div class="bg-transparent flex p-6 gap-4 max-[877px]:flex-row-reverse">
+        <div class="text-slate-300 uppercase text-bold font-semibold text-xl max-[877px]:ms-auto">
+            <h5>JoshDev</h5>
         </div>
 
+        <div class="text-slate-300 text-2xl hidden max-[877px]:block">
+            <i class='bx bx-menu'></i>
+        </div>
+        
+        <div class="min-[878px]:flex max-[877px]:hidden gap-24 mr-24 ms-auto font-bold uppercase text-slate-300">
+            <div class="relative cursor-pointer hover:bg-white hover:text-black
+                        hover:rounded-lg p-2 duration-300 ease-linear">
+                <div>Home</div>
+            </div>
             
+            <div class="relative cursor-pointer hover:bg-white hover:text-black
+                        hover:rounded-lg p-2 duration-300 ease-linear">
+                <div>About</div>
+            </div>
+
+            <div class="relative cursor-pointer hover:bg-white hover:text-black
+                        hover:rounded-lg p-2 duration-300 ease-linear">
+                <div>Project</div>
+            </div>
+
+            <div class="relative cursor-pointer hover:bg-white hover:text-black
+                        hover:rounded-lg p-2 duration-300 ease-linear">
+                <div>Contact</div>
+            </div>
+        </div>
+    </div>
+    <div class="h-screen p-8 grid gap-2">
+        <div class="grid gap-2 md:grid-cols-2 md:m-16
+                    md:grid-none md:flex md:flex-row-reverse">
+
+            <div class="max-w-xl ms-auto bg-red md:ms-auto item-center">
+                <img src="static\img\IMG_20240324_125205.jpg" alt="img" 
+                class="w-auto h-auto md:h-3/6 me-16 rounded-xl">
+            </div>
+
+            <div class="text-center md:p-8 md:text-left">
+                <p class="text-slate-300 text-m md:text-2xl">Hello, I'm Joshua,</p>
+                <h1 class="text-slate-300 text-2xl md:text-7xl mt-2">Full Stack Developer</h1>
+                <p class="text-slate-300 mt-4 text-sm">I am an experienced Full Stack Developer with a passion for 
+                   designing and building innovative web and mobile applications. 
+                </p>
+                <button type="button" class="mt-8 bg-white p-2 font-bold text-sm
+                        uppercase text-gray-600 shadow-2xl hover:bg-green-700 
+                        hover:text-white hover:rounded-2xl duration-300 ease-linear">
+                    Contact me
+                </button>
+            </div>
+
+        </div>
+        <!-- <div class="m-24 max-w-2xl">
+            
+        </div>
+        -->
+    </div>
+    <div class="h-screen p-8">
+        <div>
+            <h2 class="text-xl uppercase text-slate-300 font-bold">About Me</h2>
+        </div>
+        <!-- <div class="flex gap-4 mt-16">
+            <div class="flex gap-4">
+                <div class="bg-white p-2 rounded">
+                    Frontend
+                </div>
+
+                <div class="bg-white p-2 rounded">
+                    Backend
+                </div>
+
+                <div class="bg-white p-2 rounded">
+                    Language
+                </div>
+
+
+
+            </div>
+            <div class="ms-auto p-4 w-2/4">
+                <p class="text-slate-300 text-xl">
+                    I am a full stack developer with an extensive background 
+                    in backend technologies such as Node.js, Express.js, Django, 
+                    and MySQL. My knowledge of NoSQL databases, particularly MongoDB, 
+                    enables me to create scalable and high-performing applications.
+                </p>
+            </div>
+        </div> -->
+    </div>
+
+    <div class="h-screen p-8">
+        <div>
+            <h2 class="text-xl uppercase text-slate-300 font-bold">Projects</h2>
+        </div>
+    </div>
+
+    <div class="h-screen p-8">
+        <div>
+            <h2 class="text-xl uppercase text-slate-300 font-bold">Contact</h2>
+        </div>
+    </div>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </html>
