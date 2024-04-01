@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css"> 
     <script src="https://cdn.tailwindcss.com"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>JoshDev|Portfolio</title>
@@ -42,26 +43,36 @@
             </div>
         </div>
     </div>
-    <div class="h-screen p-8 grid gap-2">
-        <div class="grid gap-2 md:grid-cols-2 md:m-16
-                    md:grid-none md:flex md:flex-row-reverse">
+    <div class="flex relative" id="container">
+        <div class="animation"></div>
+    </div>
+    <div class="h-screen p-8 grid gap-2 relative">
+        <div class="grid gap-2 md:m-16">
 
-            <div class="max-w-xl ms-auto bg-red md:ms-auto item-center">
+            <!-- <div class="max-w-xl ms-auto bg-red md:ms-auto item-center">
                 <img src="static\img\IMG_20240324_125205.jpg" alt="img" 
                 class="w-auto h-auto md:h-3/6 me-16 rounded-xl">
-            </div>
+            </div> -->
 
-            <div class="text-center md:p-8 md:text-left">
-                <p class="text-slate-300 text-m md:text-2xl">Hello, I'm Joshua,</p>
+            <div class="text-center">
+                <p class="text-slate-300 text-4xl md:text-2xl">Hello, I'm Joshua,</p>
                 <h1 class="text-slate-300 text-2xl md:text-7xl mt-2">Full Stack Developer</h1>
-                <p class="text-slate-300 mt-4 text-sm">I am an experienced Full Stack Developer with a passion for 
+                <p class="text-slate-300 mt-4 text-lg">I am an experienced Full Stack Developer with a passion for 
                    designing and building innovative web and mobile applications. 
                 </p>
-                <button type="button" class="mt-8 bg-white p-2 font-bold text-sm
-                        uppercase text-gray-600 shadow-2xl hover:bg-green-700 
-                        hover:text-white hover:rounded-2xl duration-300 ease-linear">
-                    Contact me
-                </button>
+                <div class="flex gap-4 justify-center">
+                    <button type="button" class="mt-8 p-2 bg-white font-bold text-sm
+                            uppercase text-gray-900 border shadow-2xl hover:bg-transparent
+                            hover:text-white duration-300 ease-linear">
+                        Contact me
+                    </button>
+                    <a href="https://github.com/joshuazpedragosa"
+                            class="mt-8 p-2 font-bold text-sm
+                            uppercase text-white border shadow-2xl hover:bg-white 
+                            hover:text-gray-900 duration-300 ease-linear">
+                       See my GitHub
+                    </a>
+                </div>
             </div>
 
         </div>
@@ -113,5 +124,6 @@
             <h2 class="text-xl uppercase text-slate-300 font-bold">Contact</h2>
         </div>
     </div>
+<script src="static/js/script.js"></script>
 </body>
 </html>
